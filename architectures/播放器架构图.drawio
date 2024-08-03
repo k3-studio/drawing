@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-08-03T09:18:21.069Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="am88K6eVEDeeBUpgfVd3" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-08-03T09:33:48.910Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="MAVKsBsuqHcQghtPs4v-" version="21.6.9" type="github">
   <diagram name="第 1 页" id="mGX7JHn-emaisip8i1rK">
-    <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1889" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,6 +30,46 @@
         </mxCell>
         <mxCell id="50C9T-3_KakUq4iRH_eM-13" value="UI 元素&lt;br&gt;Item" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="560" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="50C9T-3_KakUq4iRH_eM-15" value="作用：控制字幕的生成&lt;br&gt;说明：目前主要是根据算法步骤动态生成字幕数组" style="rounded=1;align=left;fillColor=#F1F2F4;strokeColor=none;html=1;fontColor=#596780;fontSize=12;spacingLeft=26;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="755" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="50C9T-3_KakUq4iRH_eM-16" value="" style="shape=mxgraph.ios7.icons.credit_card;fillColor=none;strokeColor=default;fontColor=#3333FF;labelPosition=right;verticalLabelPosition=bottom;align=center;verticalAlign=top;html=1;whiteSpace=wrap;spacingLeft=5;labelBackgroundColor=#ffffff;strokeWidth=2;shadow=0;dashed=0;" vertex="1" parent="50C9T-3_KakUq4iRH_eM-15">
+          <mxGeometry y="0.5" width="12" height="12" relative="1" as="geometry">
+            <mxPoint x="10" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50C9T-3_KakUq4iRH_eM-17" value="作用：集成算法逻辑 &amp;amp; UI&lt;br&gt;说明：调用算法生成 steps 信息，同时驱动 UI 更新" style="rounded=1;align=left;fillColor=#F1F2F4;strokeColor=none;html=1;fontColor=#596780;fontSize=12;spacingLeft=26;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="610" y="755" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="50C9T-3_KakUq4iRH_eM-18" value="" style="shape=mxgraph.ios7.icons.calendar;fillColor=none;strokeColor=#0080F0;fontColor=#ffffff;labelPosition=right;verticalLabelPosition=bottom;align=center;verticalAlign=top;html=1;whiteSpace=wrap;spacingLeft=5;labelBackgroundColor=#ffffff;strokeWidth=2;shadow=0;dashed=0;" vertex="1" parent="50C9T-3_KakUq4iRH_eM-17">
+          <mxGeometry y="0.5" width="12" height="12" relative="1" as="geometry">
+            <mxPoint x="10" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50C9T-3_KakUq4iRH_eM-19" value="作用：提供算法实现 &amp;amp; 算法运算过程信息&lt;br&gt;说明：&lt;br&gt;1. 提供算法实现&lt;br&gt;2. 提供算法 steps 数据结构和类型定义&lt;br&gt;3. 提供 steps、revert_steps、snapshots 3 份关键数据&lt;br&gt;4. 提供每一步 step 的生成方法&lt;br&gt;5. 提供前进、后退、跳转到每一步的共用方法，并触发指定方法的回调函数（该函数定义在调用方）" style="rounded=1;align=left;fillColor=#F1F2F4;strokeColor=none;html=1;fontColor=#596780;fontSize=12;spacingLeft=26;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="60" y="880" width="290" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="50C9T-3_KakUq4iRH_eM-20" value="" style="shape=image;fillColor=none;strokeColor=#0080F0;fontColor=#ffffff;labelPosition=right;verticalLabelPosition=bottom;align=center;verticalAlign=top;html=1;whiteSpace=wrap;spacingLeft=5;labelBackgroundColor=#ffffff;strokeWidth=2;shadow=0;dashed=0;imageAspect=0;image=img/clipart/Gear_128x128.png;" vertex="1" parent="50C9T-3_KakUq4iRH_eM-19">
+          <mxGeometry y="0.5" width="12" height="12" relative="1" as="geometry">
+            <mxPoint x="10" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50C9T-3_KakUq4iRH_eM-21" value="作用：设定单个元素的 UI&lt;br&gt;说明：提供操作当个元素的原子功能函数，让外部可以更该元素的样式（位置、颜色）" style="rounded=1;align=left;fillColor=#F1F2F4;strokeColor=none;html=1;fontColor=#596780;fontSize=12;spacingLeft=26;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="700" y="900" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="50C9T-3_KakUq4iRH_eM-22" value="" style="shape=mxgraph.ios7.icons.magnet;fillColor=none;strokeColor=#0080F0;fontColor=#ffffff;labelPosition=right;verticalLabelPosition=bottom;align=center;verticalAlign=top;html=1;whiteSpace=wrap;spacingLeft=5;labelBackgroundColor=#ffffff;strokeWidth=2;shadow=0;dashed=0;pointerEvents=1;" vertex="1" parent="50C9T-3_KakUq4iRH_eM-21">
+          <mxGeometry y="0.5" width="12" height="12" relative="1" as="geometry">
+            <mxPoint x="10" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50C9T-3_KakUq4iRH_eM-23" value="作用：提供整体的播放控制&lt;br&gt;说明：&lt;br&gt;1. 提供主时间轴&lt;br&gt;2. 协调字幕和场景的顺序和视觉同步" style="rounded=1;align=left;fillColor=#F1F2F4;strokeColor=none;html=1;fontColor=#596780;fontSize=12;spacingLeft=26;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="520" y="570" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="50C9T-3_KakUq4iRH_eM-24" value="" style="shape=mxgraph.ios7.icons.shuffle;fillColor=none;strokeColor=#0080F0;fontColor=#ffffff;labelPosition=right;verticalLabelPosition=bottom;align=center;verticalAlign=top;html=1;whiteSpace=wrap;spacingLeft=5;labelBackgroundColor=#ffffff;strokeWidth=2;shadow=0;dashed=0;pointerEvents=1;" vertex="1" parent="50C9T-3_KakUq4iRH_eM-23">
+          <mxGeometry y="0.5" width="12" height="12" relative="1" as="geometry">
+            <mxPoint x="10" y="-6" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
