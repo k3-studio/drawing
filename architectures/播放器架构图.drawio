@@ -1,75 +1,111 @@
-<mxfile host="app.diagrams.net" modified="2024-08-03T09:33:48.910Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="MAVKsBsuqHcQghtPs4v-" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="第 1 页" id="mGX7JHn-emaisip8i1rK">
-    <mxGraphModel dx="1889" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="50C9T-3_KakUq4iRH_eM-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="50C9T-3_KakUq4iRH_eM-1" target="50C9T-3_KakUq4iRH_eM-2">
+        <mxCell id="50C9T-3_KakUq4iRH_eM-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="50C9T-3_KakUq4iRH_eM-1" target="50C9T-3_KakUq4iRH_eM-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="50C9T-3_KakUq4iRH_eM-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="50C9T-3_KakUq4iRH_eM-1" target="50C9T-3_KakUq4iRH_eM-5">
+        <mxCell id="50C9T-3_KakUq4iRH_eM-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="50C9T-3_KakUq4iRH_eM-1" target="50C9T-3_KakUq4iRH_eM-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="50C9T-3_KakUq4iRH_eM-1" value="主控器&lt;br&gt;PlaybackManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="580" width="210" height="60" as="geometry" />
+        <mxCell id="50C9T-3_KakUq4iRH_eM-1" value="主控器&lt;br&gt;PlaybackManager" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="560" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="50C9T-3_KakUq4iRH_eM-2" value="字幕控制器&lt;br&gt;SubtitleManager" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="760" width="120" height="60" as="geometry" />
+        <mxCell id="50C9T-3_KakUq4iRH_eM-2" value="字幕控制器&lt;br&gt;SubtitleManager" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="140" y="760" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="50C9T-3_KakUq4iRH_eM-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="50C9T-3_KakUq4iRH_eM-5" target="50C9T-3_KakUq4iRH_eM-11">
+        <mxCell id="50C9T-3_KakUq4iRH_eM-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="50C9T-3_KakUq4iRH_eM-5" target="50C9T-3_KakUq4iRH_eM-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="50C9T-3_KakUq4iRH_eM-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="50C9T-3_KakUq4iRH_eM-5" target="50C9T-3_KakUq4iRH_eM-13">
+        <mxCell id="50C9T-3_KakUq4iRH_eM-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="50C9T-3_KakUq4iRH_eM-5" target="50C9T-3_KakUq4iRH_eM-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="50C9T-3_KakUq4iRH_eM-5" value="场景控制器&lt;br&gt;ItemManager" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="470" y="760" width="120" height="60" as="geometry" />
+        <mxCell id="50C9T-3_KakUq4iRH_eM-5" value="场景控制器&lt;br&gt;ItemManager" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="440" y="760" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="50C9T-3_KakUq4iRH_eM-11" value="算法执行器&lt;br&gt;Algorithm" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="50C9T-3_KakUq4iRH_eM-11" value="算法执行器&lt;br&gt;Algorithm" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="370" y="900" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="50C9T-3_KakUq4iRH_eM-13" value="UI 元素&lt;br&gt;Item" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="50C9T-3_KakUq4iRH_eM-13" value="UI 元素&lt;br&gt;Item" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="560" y="900" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="50C9T-3_KakUq4iRH_eM-15" value="作用：控制字幕的生成&lt;br&gt;说明：目前主要是根据算法步骤动态生成字幕数组" style="rounded=1;align=left;fillColor=#F1F2F4;strokeColor=none;html=1;fontColor=#596780;fontSize=12;spacingLeft=26;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="755" width="170" height="70" as="geometry" />
+        <mxCell id="50C9T-3_KakUq4iRH_eM-15" value="作用：控制字幕的生成&lt;br&gt;说明：目前主要是根据算法步骤动态生成字幕数组" style="rounded=1;align=left;fillColor=#F1F2F4;strokeColor=none;html=1;fontColor=#596780;fontSize=12;spacingLeft=26;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-60" y="755" width="170" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="50C9T-3_KakUq4iRH_eM-16" value="" style="shape=mxgraph.ios7.icons.credit_card;fillColor=none;strokeColor=default;fontColor=#3333FF;labelPosition=right;verticalLabelPosition=bottom;align=center;verticalAlign=top;html=1;whiteSpace=wrap;spacingLeft=5;labelBackgroundColor=#ffffff;strokeWidth=2;shadow=0;dashed=0;" vertex="1" parent="50C9T-3_KakUq4iRH_eM-15">
+        <mxCell id="50C9T-3_KakUq4iRH_eM-16" value="" style="shape=mxgraph.ios7.icons.credit_card;fillColor=none;strokeColor=default;fontColor=#3333FF;labelPosition=right;verticalLabelPosition=bottom;align=center;verticalAlign=top;html=1;whiteSpace=wrap;spacingLeft=5;labelBackgroundColor=#ffffff;strokeWidth=2;shadow=0;dashed=0;" parent="50C9T-3_KakUq4iRH_eM-15" vertex="1">
           <mxGeometry y="0.5" width="12" height="12" relative="1" as="geometry">
             <mxPoint x="10" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="50C9T-3_KakUq4iRH_eM-17" value="作用：集成算法逻辑 &amp;amp; UI&lt;br&gt;说明：调用算法生成 steps 信息，同时驱动 UI 更新" style="rounded=1;align=left;fillColor=#F1F2F4;strokeColor=none;html=1;fontColor=#596780;fontSize=12;spacingLeft=26;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="50C9T-3_KakUq4iRH_eM-17" value="作用：集成算法逻辑 &amp;amp; UI&lt;br&gt;说明：调用算法生成 steps 信息，同时驱动 UI 更新" style="rounded=1;align=left;fillColor=#F1F2F4;strokeColor=none;html=1;fontColor=#596780;fontSize=12;spacingLeft=26;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="610" y="755" width="200" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="50C9T-3_KakUq4iRH_eM-18" value="" style="shape=mxgraph.ios7.icons.calendar;fillColor=none;strokeColor=#0080F0;fontColor=#ffffff;labelPosition=right;verticalLabelPosition=bottom;align=center;verticalAlign=top;html=1;whiteSpace=wrap;spacingLeft=5;labelBackgroundColor=#ffffff;strokeWidth=2;shadow=0;dashed=0;" vertex="1" parent="50C9T-3_KakUq4iRH_eM-17">
+        <mxCell id="50C9T-3_KakUq4iRH_eM-18" value="" style="shape=mxgraph.ios7.icons.calendar;fillColor=none;strokeColor=#0080F0;fontColor=#ffffff;labelPosition=right;verticalLabelPosition=bottom;align=center;verticalAlign=top;html=1;whiteSpace=wrap;spacingLeft=5;labelBackgroundColor=#ffffff;strokeWidth=2;shadow=0;dashed=0;" parent="50C9T-3_KakUq4iRH_eM-17" vertex="1">
           <mxGeometry y="0.5" width="12" height="12" relative="1" as="geometry">
             <mxPoint x="10" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="50C9T-3_KakUq4iRH_eM-19" value="作用：提供算法实现 &amp;amp; 算法运算过程信息&lt;br&gt;说明：&lt;br&gt;1. 提供算法实现&lt;br&gt;2. 提供算法 steps 数据结构和类型定义&lt;br&gt;3. 提供 steps、revert_steps、snapshots 3 份关键数据&lt;br&gt;4. 提供每一步 step 的生成方法&lt;br&gt;5. 提供前进、后退、跳转到每一步的共用方法，并触发指定方法的回调函数（该函数定义在调用方）" style="rounded=1;align=left;fillColor=#F1F2F4;strokeColor=none;html=1;fontColor=#596780;fontSize=12;spacingLeft=26;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="50C9T-3_KakUq4iRH_eM-19" value="作用：提供算法实现 &amp;amp; 算法运算过程信息&lt;br&gt;说明：&lt;br&gt;1. 提供算法实现&lt;br&gt;2. 提供算法 steps 数据结构和类型定义&lt;br&gt;3. 提供 steps、revert_steps、snapshots 3 份关键数据&lt;br&gt;4. 提供每一步 step 的生成方法&lt;br&gt;5. 提供前进、后退、跳转到每一步的共用方法，并触发指定方法的回调函数（该函数定义在调用方）" style="rounded=1;align=left;fillColor=#F1F2F4;strokeColor=none;html=1;fontColor=#596780;fontSize=12;spacingLeft=26;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="60" y="880" width="290" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="50C9T-3_KakUq4iRH_eM-20" value="" style="shape=image;fillColor=none;strokeColor=#0080F0;fontColor=#ffffff;labelPosition=right;verticalLabelPosition=bottom;align=center;verticalAlign=top;html=1;whiteSpace=wrap;spacingLeft=5;labelBackgroundColor=#ffffff;strokeWidth=2;shadow=0;dashed=0;imageAspect=0;image=img/clipart/Gear_128x128.png;" vertex="1" parent="50C9T-3_KakUq4iRH_eM-19">
+        <mxCell id="50C9T-3_KakUq4iRH_eM-20" value="" style="shape=image;fillColor=none;strokeColor=#0080F0;fontColor=#ffffff;labelPosition=right;verticalLabelPosition=bottom;align=center;verticalAlign=top;html=1;whiteSpace=wrap;spacingLeft=5;labelBackgroundColor=#ffffff;strokeWidth=2;shadow=0;dashed=0;imageAspect=0;image=img/clipart/Gear_128x128.png;" parent="50C9T-3_KakUq4iRH_eM-19" vertex="1">
           <mxGeometry y="0.5" width="12" height="12" relative="1" as="geometry">
             <mxPoint x="10" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="50C9T-3_KakUq4iRH_eM-21" value="作用：设定单个元素的 UI&lt;br&gt;说明：提供操作当个元素的原子功能函数，让外部可以更该元素的样式（位置、颜色）" style="rounded=1;align=left;fillColor=#F1F2F4;strokeColor=none;html=1;fontColor=#596780;fontSize=12;spacingLeft=26;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="50C9T-3_KakUq4iRH_eM-21" value="作用：设定单个元素的 UI&lt;br&gt;说明：提供操作当个元素的原子功能函数，让外部可以更该元素的样式（位置、颜色）" style="rounded=1;align=left;fillColor=#F1F2F4;strokeColor=none;html=1;fontColor=#596780;fontSize=12;spacingLeft=26;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="700" y="900" width="170" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="50C9T-3_KakUq4iRH_eM-22" value="" style="shape=mxgraph.ios7.icons.magnet;fillColor=none;strokeColor=#0080F0;fontColor=#ffffff;labelPosition=right;verticalLabelPosition=bottom;align=center;verticalAlign=top;html=1;whiteSpace=wrap;spacingLeft=5;labelBackgroundColor=#ffffff;strokeWidth=2;shadow=0;dashed=0;pointerEvents=1;" vertex="1" parent="50C9T-3_KakUq4iRH_eM-21">
+        <mxCell id="50C9T-3_KakUq4iRH_eM-22" value="" style="shape=mxgraph.ios7.icons.magnet;fillColor=none;strokeColor=#0080F0;fontColor=#ffffff;labelPosition=right;verticalLabelPosition=bottom;align=center;verticalAlign=top;html=1;whiteSpace=wrap;spacingLeft=5;labelBackgroundColor=#ffffff;strokeWidth=2;shadow=0;dashed=0;pointerEvents=1;" parent="50C9T-3_KakUq4iRH_eM-21" vertex="1">
           <mxGeometry y="0.5" width="12" height="12" relative="1" as="geometry">
             <mxPoint x="10" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="50C9T-3_KakUq4iRH_eM-23" value="作用：提供整体的播放控制&lt;br&gt;说明：&lt;br&gt;1. 提供主时间轴&lt;br&gt;2. 协调字幕和场景的顺序和视觉同步" style="rounded=1;align=left;fillColor=#F1F2F4;strokeColor=none;html=1;fontColor=#596780;fontSize=12;spacingLeft=26;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="50C9T-3_KakUq4iRH_eM-23" value="作用：提供整体的播放控制&lt;br&gt;说明：&lt;br&gt;1. 提供主时间轴&lt;br&gt;2. 协调字幕和场景的顺序和视觉同步" style="rounded=1;align=left;fillColor=#F1F2F4;strokeColor=none;html=1;fontColor=#596780;fontSize=12;spacingLeft=26;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="520" y="570" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="50C9T-3_KakUq4iRH_eM-24" value="" style="shape=mxgraph.ios7.icons.shuffle;fillColor=none;strokeColor=#0080F0;fontColor=#ffffff;labelPosition=right;verticalLabelPosition=bottom;align=center;verticalAlign=top;html=1;whiteSpace=wrap;spacingLeft=5;labelBackgroundColor=#ffffff;strokeWidth=2;shadow=0;dashed=0;pointerEvents=1;" vertex="1" parent="50C9T-3_KakUq4iRH_eM-23">
+        <mxCell id="50C9T-3_KakUq4iRH_eM-24" value="" style="shape=mxgraph.ios7.icons.shuffle;fillColor=none;strokeColor=#0080F0;fontColor=#ffffff;labelPosition=right;verticalLabelPosition=bottom;align=center;verticalAlign=top;html=1;whiteSpace=wrap;spacingLeft=5;labelBackgroundColor=#ffffff;strokeWidth=2;shadow=0;dashed=0;pointerEvents=1;" parent="50C9T-3_KakUq4iRH_eM-23" vertex="1">
           <mxGeometry y="0.5" width="12" height="12" relative="1" as="geometry">
             <mxPoint x="10" y="-6" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="s4GNBI4tKOfbJx05x9lu-1" value="Stepper" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="585" width="260" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="s4GNBI4tKOfbJx05x9lu-2" value="- _cur_index: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="s4GNBI4tKOfbJx05x9lu-1">
+          <mxGeometry y="26" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="s4GNBI4tKOfbJx05x9lu-6" value="- _offset: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="s4GNBI4tKOfbJx05x9lu-1">
+          <mxGeometry y="52" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="s4GNBI4tKOfbJx05x9lu-8" value="- _steps: []" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="s4GNBI4tKOfbJx05x9lu-1">
+          <mxGeometry y="78" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="s4GNBI4tKOfbJx05x9lu-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="s4GNBI4tKOfbJx05x9lu-1">
+          <mxGeometry y="104" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s4GNBI4tKOfbJx05x9lu-4" value="+ cur_index/steps/offset: getter/setter" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="s4GNBI4tKOfbJx05x9lu-1">
+          <mxGeometry y="112" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="s4GNBI4tKOfbJx05x9lu-9" value="+ set_cur_index_from_global_index: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="s4GNBI4tKOfbJx05x9lu-1">
+          <mxGeometry y="138" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="s4GNBI4tKOfbJx05x9lu-10" value="+ step_next / step_prev: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="s4GNBI4tKOfbJx05x9lu-1">
+          <mxGeometry y="164" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="s4GNBI4tKOfbJx05x9lu-11" value="+ reset: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="s4GNBI4tKOfbJx05x9lu-1">
+          <mxGeometry y="190" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="s4GNBI4tKOfbJx05x9lu-12" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot; color=&quot;#666666&quot;&gt;stepper&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="620" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s4GNBI4tKOfbJx05x9lu-14" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot; color=&quot;#666666&quot;&gt;stepper&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="800" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s4GNBI4tKOfbJx05x9lu-15" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot; color=&quot;#666666&quot;&gt;stepper&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="800" width="50" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
